@@ -30,7 +30,7 @@ local function processEntity(child)
 			local particle = attachment and attachment:WaitForChild("ParticleEmitter", 3)
 
 			if particle then
-				particle.Texture = "rbxassetid://13499072336"
+				particle.Texture = "rbxassetid://98072630898609"
 			end
 
 		elseif child.Name == "RushMoving" then
@@ -48,7 +48,7 @@ local function processEntity(child)
 					blackTrail.Texture = "rbxassetid://390410785"
 				end
 				if particle then
-					particle.Texture = "rbxassetid://87320451359971"
+					particle.Texture = "rbxassetid://129731029618785"
 					particle.Rate = 55
 					particle.Brightness = 1
 					particle.Color = ColorSequence.new(Color3.fromRGB(97, 97, 97))
