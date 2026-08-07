@@ -9,7 +9,7 @@ local player = Players.LocalPlayer
 local camera = workspace.CurrentCamera
 
 --// ====== CONFIGURATION ====== --
-local ASSET_ID = "rbxassetid://13949557886" -- A-60 Asset ID
+local ASSET_ID = "rbxassetid://72709727399133" -- A-60 Asset ID
 local ENTITY_SPEED = 185
 local SPAWN_DELAY = 2
 local KILL_RADIUS = 100 
@@ -94,8 +94,8 @@ local bGui = model:FindFirstChildWhichIsA("BillboardGui", true)
 if bGui then
     task.spawn(function()
         local f1 = bGui:WaitForChild("face1", 5)
-        local f2 = bGui:WaitForChild("face2", 5)
-        local f3 = bGui:WaitForChild("face3", 5)
+        local f2 = bGui:WaitForChild("face4", 5)
+        local f3 = bGui:WaitForChild("faceOld", 5)
         local f4 = bGui:WaitForChild("face4", 5)
         local f5 = bGui:WaitForChild("face5", 5)
         local f6 = bGui:WaitForChild("face6", 5)
