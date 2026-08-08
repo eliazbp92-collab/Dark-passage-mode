@@ -48,10 +48,10 @@ local function processEntity(child)
 					blackTrail.Texture = "rbxassetid://390410785"
 				end
 				if particle then
-					particle.Texture = "rbxassetid://86965329839192"
+					particle.Texture = "rbxassetid://95186741213094"
 					particle.Rate = 55
 					particle.Brightness = 1
-					particle.Color = ColorSequence.new(Color3.fromRGB(97, 97, 97))
+					particle.Color = ColorSequence.new(Color3.fromRGB(255, 255, 255))
 				end
 			end
 
