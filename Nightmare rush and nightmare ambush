@@ -27,11 +27,22 @@ local function processEntity(child)
 		if child.Name == "AmbushMoving" then
 			local rushNew = child:WaitForChild("RushNew", 3)
 			local attachment = rushNew and rushNew:WaitForChild("Attachment", 3)
-			local particle = attachment and attachment:WaitForChild("ParticleEmitter", 3)
+			local particle = attachment and attachment:WaitForChild("ParticleEmitter", 
 
-			if particle then
-				particle.Texture = "rbxassetid://98072630898609"
+             if particle then
+				particle.Texture = "rbxassetid://87919711171064"
+				end
+			end)
+
+			if playSound then
+				playSound.PlaybackSpeed = 1
+				pcall(function()
+					playSound.Footsteps = 0.35
+				end)
 			end
+		end
+	end)
+end
 
 		elseif child.Name == "RushMoving" then
 			local rushNew = child:WaitForChild("RushNew", 3)
