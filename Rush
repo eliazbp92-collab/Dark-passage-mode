@@ -45,7 +45,7 @@ local function processEntity(child)
 				local particle = attachment:WaitForChild("ParticleEmitter", 3)
 
 				if blackTrail then
-					blackTrail.Texture = "rbxassetid://390410785"
+					blackTrail.Texture = "rbxassetid://72320760486388"
 				end
 				if particle then
 					particle.Texture = "rbxassetid://95186741213094"
