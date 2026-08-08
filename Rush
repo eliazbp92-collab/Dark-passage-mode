@@ -17,7 +17,7 @@ local function setupUI()
 		end
 		if jumpscareRush:FindFirstChild("ImageLabelBig") then
 			jumpscareRush.ImageLabelBig.ImageColor3 = Color3.fromRGB(255, 255, 255)
-			jumpscareRush.ImageLabelBig.Image = "rbxassetid://95186741213094
+			jumpscareRush.ImageLabelBig.Image = "rbxassetid://95186741213094"
 		end
 	end
 end
